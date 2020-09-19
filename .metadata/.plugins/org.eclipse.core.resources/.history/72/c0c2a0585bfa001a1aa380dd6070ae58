@@ -1,0 +1,17 @@
+package cn.tedu.shoot;
+
+public class World {
+	Sky s = new Sky();
+	Hero h = new Hero();
+	FlyingObject[] enemies = {};
+	Bullet[] bts = {};
+	
+	void action(){ //≤‚ ‘¥˙¬Î
+		enemies = new FlyingObject[5];
+		enemies[0] = new Airplane();
+	}
+	public static void main(String[] args) {
+		World w = new World();
+		w.action();
+	}
+}

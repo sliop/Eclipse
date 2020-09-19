@@ -1,0 +1,9 @@
+package oo.day04;
+
+public class Teacher extends Person {
+	double salary; //¹¤×Ê
+	Teacher(String name,int age,String address,double salary){
+		super(name,age,address);
+		this.salary = salary;
+	}
+}

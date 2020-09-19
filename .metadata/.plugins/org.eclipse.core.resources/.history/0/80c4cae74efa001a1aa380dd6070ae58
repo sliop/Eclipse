@@ -1,0 +1,11 @@
+package cn.tedu.shoot;
+
+public class Hero extends FlyingObject {
+	int life;
+	int fire;
+	Hero(int width, int height, int x, int y) {
+		super(width, height, x, y);
+		life = 3;
+		fire = 0;
+	}
+}

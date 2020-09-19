@@ -1,0 +1,10 @@
+package oo.day04;
+
+public class UploadDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

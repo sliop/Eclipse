@@ -1,0 +1,19 @@
+package cn.tedu.shoot;
+
+public class World {
+	Sky s;
+	Hero h;
+	Airplane[] as;
+	BigAirplane[] bas;
+	Bee[] bs;
+	FlyingObject[] enimeies;
+	Bullet[] bts;
+	
+	void action(){ //≤‚ ‘¥˙¬Î
+		
+	}
+	public static void main(String[] args) {
+		World w = new World();
+		w.action();
+	}
+}

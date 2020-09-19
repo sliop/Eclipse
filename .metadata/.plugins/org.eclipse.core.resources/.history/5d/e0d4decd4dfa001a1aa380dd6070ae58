@@ -1,0 +1,17 @@
+package cn.tedu.shoot;
+
+public class FlyingObject {
+	int width;
+	int height;
+	int x;
+	int y;
+	FlyingObject() {
+		
+	}
+	FlyingObject() {
+		
+	}
+	void step() {
+		System.out.println();
+	}
+}

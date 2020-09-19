@@ -1,0 +1,9 @@
+package cn.tedu.shoot;
+
+public class BigAirplane extends FlyingObject {
+	int speed;
+	BigAirplane() {
+		super();
+		speed = 2;
+	}
+}

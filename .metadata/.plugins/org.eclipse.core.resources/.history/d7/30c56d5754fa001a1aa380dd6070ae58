@@ -1,0 +1,9 @@
+package oo.day04;
+
+public class Test {
+	public static void main(String[] args) {
+		Person[] ps = new Person[5];
+		ps[0] = new Student("zhangsan", 16, "111");
+		ps[1] = new Student("lisi", 17, "222");
+	}
+}

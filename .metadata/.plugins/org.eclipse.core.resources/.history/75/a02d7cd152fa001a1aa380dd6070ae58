@@ -1,0 +1,9 @@
+package oo.day04;
+
+public class Student extends Person{
+	String stuId; //Ñ§ºÅ
+	Student(String name,int age,String address,String stuId){
+		super(name,age,address);
+		this.stuId = stuId;
+	}
+}
