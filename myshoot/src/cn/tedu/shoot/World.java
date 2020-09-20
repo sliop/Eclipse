@@ -4,12 +4,12 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class World extends JPanel {
-	Sky s = new Sky();
-	Hero h = new Hero();
-	FlyingObject[] enemies = {};
-	Bullet[] bts = {};
+	private Sky s = new Sky();
+	private Hero h = new Hero();
+	private FlyingObject[] enemies = {};
+	private Bullet[] bts = {};
 	
-	void action(){ //≤‚ ‘¥˙¬Î
+	public void action(){ //≤‚ ‘¥˙¬Î
 		enemies = new FlyingObject[5];
 		enemies[0] = new Airplane();
 		enemies[1] = new Airplane();
@@ -22,6 +22,7 @@ public class World extends JPanel {
 			f.step();
 		}
 	}
+	
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
 		World world = new World();
